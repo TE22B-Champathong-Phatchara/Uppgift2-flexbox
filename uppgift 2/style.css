@@ -1,0 +1,55 @@
+.rubrik{
+    text-align: center;
+}
+
+#huvud{
+    min-width: 80%;
+    min-height: 400px;
+    border: 2px solid #d6001c;
+    background-image: url(./img/snow_winter_trees.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-size:auto;
+}
+#snart{
+    font-family: 'Mountains of Christmas';
+    font-size: 60px;
+    text-align: center;
+}
+.länkar{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    border: 3px solid #d6001c;
+}
+.bilder{
+    width:  150px;
+    height: 150px;
+    object-fit: contain;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 3px solid black;
+}
+.mellan{
+    border: 3px solid #d6001c;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+.vänster{
+    border: 3px solid #d6001c;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-size: 30px;
+}
+.mitten{
+    border: 3px solid #d6001c;
+    padding: 2px;
+    font-size: 20px;
+}
+.höger{
+    border: 3px solid #d6001c;  
+}
